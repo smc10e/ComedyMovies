@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android1:id="@id/character_background"
+    android1:layout_width="fill_parent"
+    android1:layout_height="fill_parent" >
+
+    <SlidingDrawer
+        android1:id="@+id/slidingDrawer1"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentTop="true"
+        android1:layout_centerHorizontal="true"
+        android1:content="@+id/content"
+        android1:handle="@+id/handle"
+        android1:topOffset="100dp" >
+
+        <RelativeLayout
+            android1:id="@+id/handle"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content">
+
+            <Button
+                android1:id="@+id/button1"
+                style="?android:attr/buttonStyleSmall"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:layout_alignParentLeft="true"
+                android1:layout_centerVertical="true"
+                android1:text="@string/sounds" />
+            
+        </RelativeLayout>
+
+        <LinearLayout
+            android1:id="@+id/content"
+            android1:layout_width="match_parent"
+            android1:layout_height="match_parent"
+            android1:orientation="vertical" >
+
+            <RelativeLayout
+                android1:id="@+id/stoplayout1"
+                android1:layout_width="match_parent"
+                android1:layout_height="wrap_content"
+                android1:visibility="gone"
+                android:background="@color/lightblack" >
+	
+	            <Button
+	                android1:id="@+id/stop"
+	                style="?android:attr/buttonStyleSmall"
+	                android1:layout_width="wrap_content"
+	                android1:layout_height="wrap_content"
+	                android1:layout_alignParentRight="true"
+	                android1:layout_centerVertical="true"
+	                android1:text="@string/stop" />
+	            
+	        </RelativeLayout>
+            <ListView
+                android1:id="@id/tonelist"
+                android1:layout_width="match_parent"
+                android1:layout_height="wrap_content"
+    			android:background="@color/lightgray"
+                android1:cacheColorHint="#00000000" />
+        </LinearLayout>
+    </SlidingDrawer>
+
+</RelativeLayout>

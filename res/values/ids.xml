@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="character_background">false</item>
+    <item type="id" name="tonelist">false</item>
+    <item type="id" name="help">false</item>
+    <item type="id" name="toggleButton1">false</item>
+    <item type="id" name="linearLayout1">false</item>
+    <item type="id" name="select_character">false</item>
+    <item type="id" name="watch_trailer">false</item>
+    <item type="id" name="buy_movie">false</item>
+    <item type="id" name="list_character">false</item>
+    <item type="id" name="progressBar1">false</item>
+    <item type="id" name="celebrity_img">false</item>
+    <item type="id" name="celebrity_name">false</item>
+    <item type="id" name="imageView1">false</item>
+    <item type="id" name="tone_name">false</item>
+    <item type="id" name="imageView2">false</item>
+</resources>
